@@ -577,7 +577,8 @@ ggplot(role, aes(x= role, y = chancetowin, fill = role)) +
 ```
 
 
-    
+![skillranks1_png](https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_39_0.png)
+
 ![png](output_39_0.png)
     
 
