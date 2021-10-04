@@ -68,7 +68,7 @@ I want to thank Ubisoft for that. Nevertheless, this article says that this is t
 ### 1 - Installing and loading packages:<a class="anchor" id="section_2_1"></a>
 
 
-```R
+```R, warning = FALSE, message = FALSE
 install.packages("tidyverse")
 install.packages("scales")
 install.packages("waffle")
@@ -77,73 +77,6 @@ library(lubridate)
 library(scales)
 library(waffle) 
 ```
-
-    Installation du package dans 'C:/Users/Tristan/Documents/R/win-library/4.1'
-    (car 'lib' n'est pas spécifié)
-    
-    
-
-    package 'tidyverse' successfully unpacked and MD5 sums checked
-    
-    The downloaded binary packages are in
-    	C:\Users\Tristan\AppData\Local\Temp\RtmpctZTBV\downloaded_packages
-    
-
-    Installation du package dans 'C:/Users/Tristan/Documents/R/win-library/4.1'
-    (car 'lib' n'est pas spécifié)
-    
-    
-
-    package 'scales' successfully unpacked and MD5 sums checked
-    
-    The downloaded binary packages are in
-    	C:\Users\Tristan\AppData\Local\Temp\RtmpctZTBV\downloaded_packages
-    
-
-    Installation du package dans 'C:/Users/Tristan/Documents/R/win-library/4.1'
-    (car 'lib' n'est pas spécifié)
-    
-    
-
-    package 'waffle' successfully unpacked and MD5 sums checked
-    
-    The downloaded binary packages are in
-    	C:\Users\Tristan\AppData\Local\Temp\RtmpctZTBV\downloaded_packages
-    
-
-    -- [1mAttaching packages[22m ------------------------------------------------------------------------------- tidyverse 1.3.1 --
-    
-    [32mv[39m [34mggplot2[39m 3.3.5     [32mv[39m [34mpurrr  [39m 0.3.4
-    [32mv[39m [34mtibble [39m 3.1.5     [32mv[39m [34mdplyr  [39m 1.0.7
-    [32mv[39m [34mtidyr  [39m 1.1.4     [32mv[39m [34mstringr[39m 1.4.0
-    [32mv[39m [34mreadr  [39m 2.0.2     [32mv[39m [34mforcats[39m 0.5.1
-    
-    -- [1mConflicts[22m ---------------------------------------------------------------------------------- tidyverse_conflicts() --
-    [31mx[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
-    [31mx[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
-    
-    
-    Attachement du package : 'lubridate'
-    
-    
-    Les objets suivants sont masqués depuis 'package:base':
-    
-        date, intersect, setdiff, union
-    
-    
-    
-    Attachement du package : 'scales'
-    
-    
-    L'objet suivant est masqué depuis 'package:purrr':
-    
-        discard
-    
-    
-    L'objet suivant est masqué depuis 'package:readr':
-    
-        col_factor
-    
     
     
 
