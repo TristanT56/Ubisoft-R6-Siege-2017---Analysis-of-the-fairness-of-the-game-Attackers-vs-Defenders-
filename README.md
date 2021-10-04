@@ -1,4 +1,4 @@
-# Ubisoft R6 Siege (2017) - Analysis of the fairness of the game (Attackers vs Defenders).
+# Ubisoft R6 Siege (2017) - Analysis of the fairness of the game (Attackers vs Defenders) - Using R.
 
 ### Table of Contents
 
@@ -1175,7 +1175,7 @@ ggplot(objlocATT, aes(x = round(chancetowin), y = reorder(objectivelocation,roun
 
 
     
-![objloc3_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_76_0.png)
+![objloc3_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-----Using-R/blob/main/Images%20for%20the%20Readme%20Markdown/output_76_0.png)
     
 
 
@@ -1231,7 +1231,7 @@ ggplot(objlocDEF, aes(x = round(chancetowin), y = reorder(objectivelocation,roun
   theme(text = element_text(size = 18)) 
 ```
 
-![objloc4_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_79_0.png)
+![objloc4_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-----Using-R/blob/main/Images%20for%20the%20Readme%20Markdown/output_79_0.png)
     
 
 
