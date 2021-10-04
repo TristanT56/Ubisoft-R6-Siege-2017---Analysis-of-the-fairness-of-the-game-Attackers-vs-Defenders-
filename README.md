@@ -579,7 +579,6 @@ ggplot(role, aes(x= role, y = chancetowin, fill = role)) +
 
 ![skillranks1_png](https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_39_0.png)
 
-![png](output_39_0.png)
     
 
 
@@ -618,7 +617,7 @@ ggplot(SR, aes(skillrank, totalgames, fill= skillrank))+
 
 
     
-![png](output_42_0.png)
+![skillranks2_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_42_0.png)
     
 
 
@@ -682,9 +681,7 @@ ggplot(role_map, aes(x= role, y = chancetowin, fill = role)) +
   theme(text = element_text(size = 18)) 
 ```
 
-
-    
-![png](output_46_0.png)
+![maps1_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_46_0.png)
     
 
 
@@ -710,9 +707,7 @@ waffle(nbgames_count, rows=5, size=0.6, colors=c('#e6194b', '#3cb44b', '#ffe119'
 ```
 
 
-    
-![png](output_49_0.png)
-    
+![maps2_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_49_0.png)
 
 
 Interpretation: We can see that the player has almost the same probability to play the different maps (around 6% for all the maps. (Skillrank: GOLD)
@@ -766,9 +761,7 @@ ggplot(mapsATT, aes(x = round(chancetowin), y = reorder(mapname,round(chancetowi
   theme(text = element_text(size = 18)) 
 ```
 
-
-    
-![png](output_52_0.png)
+![maps3_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_52_0.png)
     
 
 
@@ -825,8 +818,7 @@ ggplot(mapsDEF, aes(x = round(chancetowin), y = reorder(mapname,round(chancetowi
 ```
 
 
-    
-![png](output_55_0.png)
+![maps4_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_55_0.png)
     
 
 
@@ -893,8 +885,7 @@ ggplot(role_map_gmode, aes(x= role, y = chancetowin, fill = role)) +
 ```
 
 
-    
-![png](output_59_0.png)
+![gamemodes1_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_59_0.png)
     
 
 
@@ -921,8 +912,7 @@ waffle(nbgames_count, rows=5, size=0.6, colors=c('#e6194b', '#3cb44b', '#ffe119'
 ```
 
 
-    
-![png](output_61_0.png)
+![gamemodes2_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_61_0.png)
     
 
 
@@ -979,8 +969,7 @@ ggplot(gmodeATT, aes(x = round(chancetowin), y = reorder(gamemode,round(chanceto
 ```
 
 
-    
-![png](output_64_0.png)
+![gamemodes3_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_64_0.png)
     
 
 
@@ -1036,8 +1025,7 @@ ggplot(gmodeDEF, aes(x = round(chancetowin), y = reorder(gamemode,round(chanceto
 ```
 
 
-    
-![png](output_67_0.png)
+![gamemodes4_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_67_0.png)
     
 
 
@@ -1103,8 +1091,7 @@ ggplot(role_map_gmode_objloc, aes(x= role, y = chancetowin, fill = role)) +
 ```
 
 
-    
-![png](output_71_0.png)
+![objloc1_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_71_0.png)
     
 
 
@@ -1129,9 +1116,7 @@ waffle(nbgames_count, rows=5, size=0.6, colors=c('#e6194b', '#3cb44b', '#ffe119'
   theme(text = element_text(size = 18)) 
 ```
 
-
-    
-![png](output_73_0.png)
+![objloc2_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_73_0.png)
     
 
 
@@ -1190,7 +1175,7 @@ ggplot(objlocATT, aes(x = round(chancetowin), y = reorder(objectivelocation,roun
 
 
     
-![png](output_76_0.png)
+![objloc3_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_76_0.png)
     
 
 
@@ -1246,9 +1231,7 @@ ggplot(objlocDEF, aes(x = round(chancetowin), y = reorder(objectivelocation,roun
   theme(text = element_text(size = 18)) 
 ```
 
-
-    
-![png](output_79_0.png)
+![objloc4_png]( https://github.com/TristanT56/Ubisoft-R6-Siege-2017---Analysis-of-the-fairness-of-the-game-Attackers-vs-Defenders-/blob/main/Images%20for%20the%20Readme%20Markdown/output_79_0.png)
     
 
 
